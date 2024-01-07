@@ -149,7 +149,7 @@ nav .nav-menu .nav-item {
     height: auto;
 }
 
-.about h3 {
+.about .title {
     padding: 34px 0 29px 0;
     color: #FFF;
     font-size: 30px;
@@ -181,6 +181,54 @@ nav .nav-menu .nav-item {
     opacity: 0.53;
 }
 
+/* Manu Mixue */
+.menu {
+    width: 100%;
+    height: auto;
+}
+
+.menu h3 {
+    margin: 78px 0 30px 0;
+    color: #E42E2E;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.menu .btn-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu .btn-filter .filter-bu tton {
+    border-radius: 40px;
+    background-color: #E42E2E;
+    padding: 15px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu .btn-filter .filter-button:hover {
+    background: #A12626;
+    box-shadow: 0px 0px 25px 0px #E42E2E;
+}
+
+.btn-filter .filter-button.active {
+    background: #A12626;
+    box-shadow: 0px 0px 25px 0px #E42E2E;
+}
 
 
 /* Hambuger Menu*/
