@@ -205,7 +205,7 @@ nav .nav-menu .nav-item {
     gap: 10px;
 }
 
-.menu .btn-filter .filter-bu tton {
+.menu .btn-filter .filter-button {
     border-radius: 40px;
     background-color: #E42E2E;
     padding: 15px;
@@ -302,6 +302,15 @@ nav .nav-menu .nav-item {
     .text-banner p {
         font-size: 15px;
     }
+
+    /* Menu Mixue */
+    .menu .btn-filter {
+        flex-wrap: wrap;
+    }
+
+    .menu .btn-filter .filter-button {
+        width: 40%;
+    }
 }
 
 
@@ -353,5 +362,14 @@ nav .nav-menu .nav-item {
 
     .banner .img-banner {
         width: 100%;
+    }
+
+    /* Manu Mixue */
+    .menu .btn-filter {
+        flex-wrap: wrap;
+    }
+
+    .menu .btn-filter .filter-button {
+        width: 80%;
     }
 }
