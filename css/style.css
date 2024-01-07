@@ -87,6 +87,14 @@ nav .nav-menu .nav-item {
     background: #FFF;
 }
 
+
+/* Banner Mixue  */
+.banner {
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+}
+
 .banner .container {
     display: flex;
 }
@@ -234,5 +242,19 @@ nav .nav-menu .nav-item {
 
     .menu-toggle {
         display: flex;
+    }
+
+    /* Banner Mixue */
+    .banner .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner .text-banner {
+        width: 100%;
+    }
+
+    .banner .img-banner {
+        width: 100%;
     }
 }
