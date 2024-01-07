@@ -16,6 +16,8 @@ body {
     width: 85%;
     margin: 0 auto;
     position: relative;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -138,6 +140,45 @@ nav .nav-menu .nav-item {
     width: 396.813px;
     height: 378.87px;
     flex-shrink: 0;
+}
+
+/* About Mixue */
+.about {
+    background-color: #E42E2E;
+    width: 100%;
+    height: auto;
+}
+
+.about h3 {
+    padding: 34px 0 29px 0;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.about p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.25px;
+}
+
+.about .icon-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .icon-about img {
+    margin-top: -30px;
+    height: 100px;
+    opacity: 0.53;
 }
 
 
