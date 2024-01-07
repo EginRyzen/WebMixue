@@ -205,6 +205,14 @@ nav .nav-menu .nav-item {
     .nav-menu .nav-item .nav-link {
         font-size: 14px;
     }
+
+    .text-banner h1 {
+        font-size: 60px;
+    }
+
+    .text-banner p {
+        font-size: 15px;
+    }
 }
 
 
