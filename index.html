@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -40,98 +41,115 @@
             <div class="container">
                 <div class="text-banner">
                     <h1>蜜雪冰城</h1>
-                    <p>Share Sweetness & Spread Happiness</p>
+                    <p id="typing-text"> Share Sweetness & Spread Happiness </p>
                 </div>
                 <div class="img-banner">
                     <img src="./Images/banner mixue.png" alt="">
                 </div>
             </div>
         </section>
+        <section class="about">
+            <div class="container">
+                <h3 class="title">About</h3>
+                <p>Mixue sendiri berasal dari kata-kata Mi dan Xue dalam bahasa Mandarin. Mi berarti “madu” yang diambil
+                    dari kata feng mi dan tiang mi yang berarti manis, sedangkan Xue berarti “salju”. Dalam kombinasi,
+                    Mixue
+                    memiliki arti “salju yang manis seperti madu”.Gerai Mixue tersebar di berbagai tempat di Indonesia,
+                    seperti Jakarta, Depok, Tangerang, Bekasi, Bogor, Bandung, Surabaya, Denpasar, Malang, Lampung,
+                    Palembang, Solo, Yogyakarta, Riau, Batam, dan masih banyak lagi.</p>
+                <div class="icon-about">
+                    <img src="./Images/iconmixue.png" alt="">
+                    <img src="./Images/iconmixue.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="container">
+                <h3 class="title-menu">Menu</h3>
+                <div class="btn-filter">
+                    <button type="button" class="filter-button active" data-filter="all">All</button>
+                    <button type="button" class="filter-button" data-filter="ice-cream">Mixue Fresh Ice Cream</button>
+                    <button type="button" class="filter-button" data-filter="fruittea">Mixue Real Fruit Tea</button>
+                    <button type="button" class="filter-button" data-filter="freshtea">Mixue Fresh Tea</button>
+                    <button type="button" class="filter-button" data-filter="milktea">Mixue Milk Tea</button>
+                    <button type="button" class="filter-button" data-filter="coffe">Mixue Coffee</button>
+                </div>
+                <div class="card-product">
+                    <div class="card filter ice-cream">
+                        <div class="card-header">
+                            <img src="./Images/Mixue-4.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Strawberry Sundae (16k)</a>
+                            <p>Ice Cream Strawberry yang lembut dan nikmat.</p>
+                        </div>
+                    </div>
+                    <div class="card filter fruittea">
+                        <div class="card-header">
+                            <img src="./Images/Mixue-5.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Sundae (16k)</a>
+                            <p>Ice Cream vanilla</p>
+                        </div>
+                    </div>
+                    <div class="card filter freshtea">
+                        <div class="card-header">
+                            <img src="./Images/Mixue-2.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Strawberry Lucky Sundae (16k)</a>
+                            <p>Ice Cream dengan Saus Strawbery dan potongan Strawberry</p>
+                        </div>
+                    </div>
+                    <div class="card filter milktea">
+                        <div class="card-header">
+                            <img src="./Images/Mixue-7.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Strawberry Lucky Sundae (16k)</a>
+                            <p>Ice Cream dengan Saus Strawbery dan potongan Strawberry</p>
+                        </div>
+                    </div>
+                    <div class="card filter coffe">
+                        <div class="card-header">
+                            <img src="./Images/Mixue-3.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Oreo Sundae (16k)</a>
+                            <p>Ice Cream dengan Coklat dan taburan Oreo yang Renyah</p>
+                        </div>
+                    </div>
+                    <div class="card filter coffe">
+                        <div class="card-header">
+                            <img src="./Images/Mixue-6.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <a href="#">Chocolate Lucky Sundae (16k)</a>
+                            <p>Ice Cream dengan Saus Chocolate serta kejutan Topping di bawahnya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    <section class="about">
-        <div class="container">
-            <h3 class="title">About</h3>
-            <p>Mixue sendiri berasal dari kata-kata Mi dan Xue dalam bahasa Mandarin. Mi berarti “madu” yang diambil
-                dari kata feng mi dan tiang mi yang berarti manis, sedangkan Xue berarti “salju”. Dalam kombinasi,
-                Mixue
-                memiliki arti “salju yang manis seperti madu”.Gerai Mixue tersebar di berbagai tempat di Indonesia,
-                seperti Jakarta, Depok, Tangerang, Bekasi, Bogor, Bandung, Surabaya, Denpasar, Malang, Lampung,
-                Palembang, Solo, Yogyakarta, Riau, Batam, dan masih banyak lagi.</p>
-            <div class="icon-about">
-                <img src="./Images/iconmixue.png" alt="">
-                <img src="./Images/iconmixue.png" alt="">
+    <footer>
+        <div class="footer">
+            <img src="./Images/logo-footer.png" class="footer-logo" alt="">
+            <p class="telp"><i class="fa-solid fa-phone"></i> 0819-9360-6666</p>
+            <div class="medsos">
+                <p><i class="fa-brands fa-instagram"></i><a
+                        href="https://www.instagram.com/mixueindonesia/?hl=id">https://www.instagram.com/mixueindonesia/?hl=id</a>
+                </p>
+                <p><i class="fa-brands fa-facebook"></i><a
+                        href="https://www.facebook.com/p/MIXUE-Indonesia">https://www.facebook.com/p/MIXUE-Indonesia</a>
+                </p>
             </div>
         </div>
-    </section>
-    <section class="menu">
-        <div class="container">
-            <h3 class="title-menu">Menu</h3>
-            <div class="btn-filter">
-                <button type="button" class="filter-button active" data-filter="all">All</button>
-                <button type="button" class="filter-button" data-filter="ice-cream">Mixue Fresh Ice Cream</button>
-                <button type="button" class="filter-button" data-filter="fruittea">Mixue Real Fruit Tea</button>
-                <button type="button" class="filter-button" data-filter="freshtea">Mixue Fresh Tea</button>
-                <button type="button" class="filter-button" data-filter="milktea">Mixue Milk Tea</button>
-                <button type="button" class="filter-button" data-filter="coffe">Mixue Coffee</button>
-            </div>
-            <div class="card-product">
-                <div class="card filter ice-cream">
-                    <div class="card-header">
-                        <img src="./Images/Mixue-4.jpeg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <a href="#">Strawberry Sundae (16k)</a>
-                        <p>Ice Cream Strawberry yang lembut dan nikmat.</p>
-                    </div>
-                </div>
-                <div class="card filter fruittea">
-                    <div class="card-header">
-                        <img src="./Images/Mixue-5.jpeg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <a href="#">Sundae (16k)</a>
-                        <p>Ice Cream vanilla</p>
-                    </div>
-                </div>
-                <div class="card filter freshtea">
-                    <div class="card-header">
-                        <img src="./Images/Mixue-2.jpeg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <a href="#">Strawberry Lucky Sundae (16k)</a>
-                        <p>Ice Cream dengan Saus Strawbery dan potongan Strawberry</p>
-                    </div>
-                </div>
-                <div class="card filter milktea">
-                    <div class="card-header">
-                        <img src="./Images/Mixue-7.jpeg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <a href="#">Strawberry Lucky Sundae (16k)</a>
-                        <p>Ice Cream dengan Saus Strawbery dan potongan Strawberry</p>
-                    </div>
-                </div>
-                <div class="card filter coffe">
-                    <div class="card-header">
-                        <img src="./Images/Mixue-3.jpeg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <a href="#">Oreo Sundae (16k)</a>
-                        <p>Ice Cream dengan Coklat dan taburan Oreo yang Renyah</p>
-                    </div>
-                </div>
-                <div class="card filter coffe">
-                    <div class="card-header">
-                        <img src="./Images/Mixue-6.jpeg" alt="">
-                    </div>
-                    <div class="card-body">
-                        <a href="#">Chocolate Lucky Sundae (16k)</a>
-                        <p>Ice Cream dengan Saus Chocolate serta kejutan Topping di bawahnya</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <p class="copyrigth">
+            Copyright © 2023 All Rights Reserved
+        </p>
+    </footer>
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

@@ -123,9 +123,25 @@ nav .nav-menu .nav-item {
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
-    letter-spacing: 1.6px;
+    animation: typing 8s linear infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: max-content;
+    /* background-color: salmon; */
 }
+
+@keyframes typing {
+
+    0%,
+    100% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+    }
+}
+
 
 .banner .img-banner {
     height: auto;
@@ -298,6 +314,83 @@ nav .nav-menu .nav-item {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1px;
+}
+
+footer {
+    background-color: #E42E2E;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 40px 0 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.footer .footer-logo {
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.footer .telp {
+    margin: 30px 0 20px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+
+.footer .medsos {
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.footer .medsos p {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .medsos p i {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #FFF;
+}
+
+.footer .medsos p a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+
+footer .copyrigth {
+    padding: 20px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.75px;
 }
 
 
@@ -476,5 +569,13 @@ nav .nav-menu .nav-item {
 
     .card-product .card {
         width: 90%;
+    }
+
+    /* footer */
+    .footer .medsos {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        background-color: #EFEFEF;
     }
 }
