@@ -358,6 +358,10 @@ footer {
     height: auto;
 }
 
+.footer .medsos ul {
+    display: none;
+}
+
 .footer .medsos p {
     display: flex;
     margin: 20px 0;
@@ -569,13 +573,5 @@ footer .copyrigth {
 
     .card-product .card {
         width: 90%;
-    }
-
-    /* footer */
-    .footer .medsos {
-        text-align: center;
-        width: 100%;
-        height: auto;
-        background-color: #EFEFEF;
     }
 }
